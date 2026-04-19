@@ -3,22 +3,10 @@ import Reveal from '../Reveal';
 
 const experiences = [
   {
-    role: 'Senior Smart Contract Engineer',
-    company: 'Nova Finance',
-    date: '2022 - Present',
-    description: 'Lead architect for v2 protocol rewrite. Implemented novel yield farming strategies reducing gas costs by 35%. Audited core contracts handling $50M+ TVL.'
-  },
-  {
-    role: 'Web3 Developer',
-    company: 'BlockStudio',
-    date: '2021 - 2022',
-    description: 'Built custom NFT marketplaces and token launchpads for enterprise clients. Integrated diverse wallets using custom RainbowKit implementations.'
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'TechCorp',
-    date: '2019 - 2021',
-    description: 'Transitioned legacy monolithic applications to serverless microservices. Introduced early blockchain integrations for supply chain tracking.'
+    role: 'Blockchain Developer',
+    company: 'Velsync',
+    date: 'Dec 2025 - Jan 2026',
+    description: 'Blockchain internship focused on smart contract development fundamentals. Spent the month learning Solidity and smart contract testing with Foundry, studying the codebase, and building foundational skills in protocol engineering.'
   }
 ];
 

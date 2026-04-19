@@ -2,7 +2,7 @@ import React from 'react';
 import Reveal from '../Reveal';
 
 const skills = [
-  'Solidity', 'Rust', 'EVM', 'Hardhat', 'Foundry', 
+  'Solidity', 'Rust', 'EVM', 'Hardhat', 'Foundry', 'Move', 'Haskell',
   'ethers.js', 'Wagmi', 'RainbowKit', 'React', 'TypeScript', 
   'IPFS', 'Chainlink', 'Node.js', 'GraphQL'
 ];
