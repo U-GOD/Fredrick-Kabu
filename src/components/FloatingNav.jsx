@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 
 const navItems = [
-  { id: 'hero', label: 'Home', icon: 'solar:home-smile-linear' },
-  { id: 'about', label: 'About', icon: 'solar:user-linear' },
-  { id: 'projects', label: 'Projects', icon: 'solar:folder-with-files-linear' },
-  { id: 'experience', label: 'Experience', icon: 'solar:suitcase-lines-linear' },
-  { id: 'contact', label: 'Contact', icon: 'solar:letter-linear' },
+  { id: 'hero', label: '', icon: 'solar:home-smile-linear' },
+  { id: 'about', label: '', icon: 'solar:user-linear' },
+  { id: 'projects', label: '', icon: 'solar:folder-with-files-linear' },
+  { id: 'experience', label: '', icon: 'solar:suitcase-lines-linear' },
+  { id: 'contact', label: '', icon: 'solar:letter-linear' },
 ];
 
 export default function FloatingNav({ isDark, toggleTheme }) {
