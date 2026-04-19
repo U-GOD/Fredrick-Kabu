@@ -3,24 +3,24 @@ import Reveal from '../Reveal';
 
 const projects = [
   {
-    title: 'DeFi Lending Protocol',
-    description: 'A non-custodial liquidity protocol enabling users to earn interest on deposits and borrow assets. Features isolated lending markets and custom interest rate models.',
-    tags: ['Solidity', 'Foundry', 'React', 'Wagmi'],
-    github: '#',
-    demo: '#'
+    title: 'Bloomora',
+    description: 'The Living Yield Garden powered by the YO SDK. Deposit real assets into YO vaults and watch them grow into a beautiful, evolving digital garden. Addictive, gamified UX featuring daily streaks and savings goals that makes users actually want to check their savings every day.',
+    tags: ['Solidity', 'Foundry', 'Typescript', 'React'],
+    github: 'https://github.com/U-GOD/bloomora',
+    demo: 'https://bloomora-8nsunbx70-fredrick-kabus-projects.vercel.app/'
   },
   {
-    title: 'Omnichain NFT Bridge',
-    description: 'Secure cross-chain message passing infrastructure allowing NFT collections to be seamlessly bridged across EVM-compatible networks using LayerZero.',
-    tags: ['Solidity', 'Hardhat', 'LayerZero', 'Next.js'],
-    github: '#',
-    demo: '#'
+    title: 'SuiIntents',
+    description: 'An intent-based trading protocol built on the Sui blockchain that enables users to express high-level trading goals without managing execution complexity. Solvers compete via Dutch Auction to fulfill intents, optimizing for price, speed, and fees while leveraging DeepBook V3 for on-chain liquidity.',
+    tags: ['Typescript', 'Move', 'CSS', 'Next.js'],
+    github: 'https://github.com/U-GOD/Intent',
+    demo: 'https://sui-intent.vercel.app/'
   },
   {
-    title: 'DAO Governance Dashboard',
-    description: 'Comprehensive voting and proposal management interface integrating directly with Governor Bravo contracts. Includes real-time delegation analytics.',
-    tags: ['TypeScript', 'GraphQL', 'The Graph', 'Tailwind'],
-    github: '#',
+    title: 'StableGuard',
+    description: 'A decentralized monitoring system that provides real-time, verifiable reserve health checks and automated safeguards for stablecoins, reducing depegging and run risks through Chainlink Runtime Environment orchestration.',
+    tags: ['TypeScript', 'Solidity', 'Chainlink', 'Javascript'],
+    github: 'https://github.com/U-GOD/StableGuard',
     demo: '#'
   }
 ];
