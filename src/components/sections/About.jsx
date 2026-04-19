@@ -26,7 +26,7 @@ export default function About() {
                   I specialize in writing secure, gas-optimized smart contracts and building intuitive frontend interfaces that abstract away the complexities of blockchain interactions for end-users.
                 </p>
                 <p>
-                  Beyond the blockchain, I am an avid math lover. I spend much of my free time solving complex mathematical problems—an analytical passion that directly sharpens my approach to protocol architecture and smart contract security.
+                  Beyond the blockchain, I am an avid math lover. I spend much of my free time solving complex mathematical problems. This analytical passion directly sharpens my approach to protocol architecture and smart contract security.
                 </p>
                 <p>
                   When I'm not deep in equations or exploring new consensus mechanisms, I contribute to open-source tools and participate in global hackathons.
