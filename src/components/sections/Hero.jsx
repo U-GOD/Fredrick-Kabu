@@ -22,6 +22,9 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={100}>
+          <h2 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 font-medium mb-4">
+            Hi, I'm Fredrick 👋
+          </h2>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6">
             Building the <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-500 dark:from-white dark:to-gray-500">
