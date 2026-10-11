@@ -1,6 +1,6 @@
 # Fredrick Kabu
 
-Personal site for a blockchain engineer. Protocols, contracts, and libraries — source first.
+Personal site for a blockchain engineer. Protocols, contracts, and libraries. Source first.
 
 ```bash
 npm install
