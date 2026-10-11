@@ -53,7 +53,7 @@ export default function Home() {
     const from = String(data.get("email") ?? "");
     const message = String(data.get("message") ?? "");
     const subject = encodeURIComponent(`Portfolio note from ${name}`);
-    const body = encodeURIComponent(`${message}\n\n— ${name}\n${from}`);
+    const body = encodeURIComponent(`${message}\n\n${name}\n${from}`);
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
     setSent(true);
   }
@@ -74,8 +74,7 @@ export default function Home() {
         >
           <div className="dot-grid pointer-events-none absolute inset-0 z-0 opacity-[0.03] dark:opacity-[0.05]" />
           <div className="rise relative z-10 mx-auto max-w-5xl text-center">
-            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50/50 px-3 py-1 text-xs font-medium text-gray-600 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/50 dark:text-gray-400">
-              <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
+            <div className="mb-8 inline-flex items-center rounded-full border border-gray-200 bg-gray-50/50 px-3 py-1 text-xs font-medium text-gray-600 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/50 dark:text-gray-400">
               Available for new projects
             </div>
             <h2 className="mb-4 text-xl font-medium text-gray-600 md:text-2xl dark:text-gray-400">
@@ -90,7 +89,6 @@ export default function Home() {
             <p className="mx-auto mb-10 max-w-2xl text-lg font-light text-gray-600 md:text-xl dark:text-gray-400">
               Blockchain engineer focused on protocols, smart contract security,
               and the machinery underneath decentralized markets.
-              <span className="cursor-blink ml-1 inline-block h-5 w-2 align-middle bg-black dark:bg-white" />
             </p>
             <a
               href="#projects"
@@ -111,7 +109,7 @@ export default function Home() {
               <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 <p>
                   I&apos;m a blockchain engineer. The work is usually a contract,
-                  a state machine, or a library someone else runs — not a screen
+                  a state machine, or a library someone else runs, not a screen
                   to click through.
                 </p>
                 <p>
