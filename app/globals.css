@@ -57,21 +57,6 @@ h4 {
   background-image: radial-gradient(circle, #ededed 1px, transparent 1px);
 }
 
-@keyframes blink {
-  0%,
-  45% {
-    opacity: 1;
-  }
-  50%,
-  95% {
-    opacity: 0;
-  }
-}
-
-.cursor-blink {
-  animation: blink 1.05s steps(1) infinite;
-}
-
 @keyframes float-bob {
   0%,
   100% {
