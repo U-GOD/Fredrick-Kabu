@@ -39,6 +39,13 @@ export const projects = [
       "A library for the Mirror Node to Block Node transition. It mocks HIP-1056 block streams locally, falls back to the Mirror Node REST API, and scans a codebase for Hedera APIs that are going away. Installed as a package, not shipped as an app.",
   },
   {
+    name: "AegisHBAR",
+    href: "https://github.com/U-GOD/AegisHBAR",
+    stack: ["Hedera", "TypeScript", "x402"],
+    summary:
+      "A pay-per-audit security agent on Hedera. You pay in HBAR or USDC, through x402, only for the vulnerability categories you want scanned. Each finding is anchored on the Consensus Service, and the finished audit is minted as an HTS certificate NFT. This is the project that won the bounty.",
+  },
+  {
     name: "SuiIntents",
     href: "https://github.com/U-GOD/Intent",
     stack: ["Sui", "TypeScript", "DeepBook"],
