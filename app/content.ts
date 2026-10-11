@@ -25,18 +25,25 @@ export const projects = [
       "A clearing protocol for the hours equity markets are closed. Closure Notes are minted in pairs: two fully collateralized tokens that split a capped close-to-open return. The vault holds one unit of collateral per pair, and settlement uses the official opening print.",
   },
   {
-    name: "SuiIntents",
-    href: "https://github.com/U-GOD/Intent",
-    stack: ["Sui", "TypeScript", "DeepBook"],
-    summary:
-      "Users sign the trade they want, not a route. Solvers compete in a Dutch auction and settle in one Programmable Transaction Block against DeepBook V3. The solver pays the gas, and the intent stays out of the public mempool until execution.",
-  },
-  {
     name: "ClaimState",
     href: "https://github.com/U-GOD/ClaimState",
     stack: ["Hedera", "TypeScript", "Solidity"],
     summary:
       "A privacy-preserving obligation lifecycle. Invoice terms stay off-chain; Hedera stores a Merkle root and a blind commitment. Funding and the reservation lock land in one batch, so a second financier reverts without learning who holds the slot.",
+  },
+  {
+    name: "HieroBlockBridge",
+    href: "https://github.com/U-GOD/hiero-block-bridge",
+    stack: ["TypeScript", "HIP-1056", "Hedera"],
+    summary:
+      "A library for the Mirror Node to Block Node transition. It mocks HIP-1056 block streams locally, falls back to the Mirror Node REST API, and scans a codebase for Hedera APIs that are going away. Installed as a package, not shipped as an app.",
+  },
+  {
+    name: "SuiIntents",
+    href: "https://github.com/U-GOD/Intent",
+    stack: ["Sui", "TypeScript", "DeepBook"],
+    summary:
+      "Users sign the trade they want, not a route. Solvers compete in a Dutch auction and settle in one Programmable Transaction Block against DeepBook V3. The solver pays the gas, and the intent stays out of the public mempool until execution.",
   },
   {
     name: "StableGuard",
@@ -51,13 +58,6 @@ export const projects = [
     stack: ["Solidity", "ERC-8004", "EIP-7702"],
     summary:
       "Hierarchical permissions for agents. A master agent re-delegates to children, and one revokeAllChildren call tears the tree down instead of one transaction per grant. Built around an ERC-8004 registry and an EIP-7702 batch controller.",
-  },
-  {
-    name: "HieroBlockBridge",
-    href: "https://github.com/U-GOD/hiero-block-bridge",
-    stack: ["TypeScript", "HIP-1056", "Hedera"],
-    summary:
-      "A library for the Mirror Node to Block Node transition. It mocks HIP-1056 block streams locally, falls back to the Mirror Node REST API, and scans a codebase for Hedera APIs that are going away. Installed as a package, not shipped as an app.",
   },
 ];
 
