@@ -108,9 +108,9 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 <p>
-                  I&apos;m a blockchain engineer. The work is usually a contract,
-                  a state machine, or a library someone else runs, not a screen
-                  to click through.
+                  I&apos;m a blockchain engineer and a 1x bounty winner, for
+                  AegisHBAR. The work is usually a contract, a state machine, or
+                  a library someone else runs, not a screen to click through.
                 </p>
                 <p>
                   I write Solidity and Rust, and test the contracts with
