@@ -1,20 +1,19 @@
 export const email = "kabufredrick9@gmail.com";
 
 export const skills = [
-  "Solidity",
-  "Move",
   "Rust",
+  "Solidity",
+  "TypeScript",
+  "JavaScript",
   "Foundry",
   "Hardhat",
-  "TypeScript",
-  "EVM",
-  "Sui",
+  "Cryptography",
+  "Node.js",
+  "Ethereum",
   "Hedera",
+  "Sui",
   "Monad",
   "Chainlink",
-  "ERC-4337",
-  "Haskell",
-  "Node.js",
 ];
 
 export const projects = [
@@ -28,7 +27,7 @@ export const projects = [
   {
     name: "SuiIntents",
     href: "https://github.com/U-GOD/Intent",
-    stack: ["Move", "Sui", "DeepBook"],
+    stack: ["Sui", "TypeScript", "DeepBook"],
     summary:
       "Users sign the trade they want, not a route. Solvers compete in a Dutch auction and settle in one Programmable Transaction Block against DeepBook V3. The solver pays the gas, and the intent stays out of the public mempool until execution.",
   },
