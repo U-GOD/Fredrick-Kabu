@@ -113,14 +113,16 @@ export default function Home() {
                   to click through.
                 </p>
                 <p>
-                  I write Solidity and Move, test with Foundry, and spend most
-                  of the time on the parts that have to fail closed: escrow,
-                  revocation, oracle attestations, and settlement.
+                  I write Solidity and Rust, and test the contracts with
+                  Foundry. Most of the time goes to the parts that have to fail
+                  closed: escrow, revocation, oracle attestations, and
+                  settlement.
                 </p>
                 <p>
-                  Math is the other half of it. I like a problem that reduces to
-                  a formula you can check, which is also how I want a protocol
-                  to read.
+                  The other thread is applied cryptography, which I am working
+                  through in Rust: extended gcd, modular exponentiation,
+                  primitive roots. I like a formula you can check, which is
+                  also how I want a protocol to read.
                 </p>
               </div>
             </div>
