@@ -64,7 +64,7 @@ export const projects = [
 
 export const experience = [
   {
-    dates: "Dec 2025 — Jan 2026",
+    dates: "Dec 2025 - Jan 2026",
     role: "Blockchain Developer",
     org: "Velsync",
     summary:
